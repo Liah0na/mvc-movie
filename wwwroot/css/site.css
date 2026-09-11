@@ -29,3 +29,58 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+.movie-filter {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.movie-filter p {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.movie-filter label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.movie-filter input[type="text"],
+.movie-filter input[type="date"],
+.movie-filter select {
+    padding: 6px 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.movie-filter input[type="text"]:focus,
+.movie-filter input[type="date"]:focus,
+.movie-filter select:focus {
+    border-color: #86b7fe;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(13, 110, 253, 0.15);
+}
+
+.movie-filter input[type="submit"] {
+    padding: 7px 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0d6efd;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.movie-filter input[type="submit"]:hover {
+    background-color: #0b5ed7;
+}
